@@ -1,0 +1,32 @@
+form {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(49, 168, 12);
+}
+
+#txt {
+    width: 300px;
+    border-radius: 10px;
+    border: 0.7px solid rgb(74, 207, 21);
+    padding-left: 10px;
+}
+
+#txt::placeholder {
+    font-size: small;
+    padding-left: 10px;
+}
+
+#txt:focus {
+    outline: none;
+}
+
+label {
+    /* color: rgb(49, 168, 12); */
+    font-weight: 500;
+}
